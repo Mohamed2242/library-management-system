@@ -7,7 +7,8 @@ import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabas
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.test.annotation.Rollback;
 
-import com.mo.librarymanagement.entity.User;
+import com.mo.librarymanagement.domain.entity.User;
+import com.mo.librarymanagement.domain.repository.UserRepository;
 
 import jakarta.transaction.Transactional;
 

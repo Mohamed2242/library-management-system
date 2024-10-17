@@ -16,10 +16,10 @@ import org.springframework.http.MediaType;
 import org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors;
 import org.springframework.test.web.servlet.MockMvc;
 
-import com.mo.librarymanagement.entity.Book;
-import com.mo.librarymanagement.entity.BorrowingRecord;
-import com.mo.librarymanagement.entity.Patron;
-import com.mo.librarymanagement.service.BorrowingService;
+import com.mo.librarymanagement.application.service.BorrowingService;
+import com.mo.librarymanagement.domain.entity.Book;
+import com.mo.librarymanagement.domain.entity.BorrowingRecord;
+import com.mo.librarymanagement.domain.entity.Patron;
 
 @SpringBootTest
 @AutoConfigureMockMvc

@@ -14,8 +14,9 @@ import org.mockito.MockitoAnnotations;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-import com.mo.librarymanagement.entity.User;
-import com.mo.librarymanagement.repository.UserRepository;
+import com.mo.librarymanagement.application.service.MyUserDetailsService;
+import com.mo.librarymanagement.domain.entity.User;
+import com.mo.librarymanagement.domain.repository.UserRepository;
 
 class MyUserDetailsServiceTest {
 

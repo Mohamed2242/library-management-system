@@ -10,8 +10,8 @@ import org.springframework.http.MediaType;
 import org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors;
 import org.springframework.test.web.servlet.MockMvc;
 
-import com.mo.librarymanagement.entity.Patron;
-import com.mo.librarymanagement.service.PatronService;
+import com.mo.librarymanagement.application.service.PatronService;
+import com.mo.librarymanagement.domain.entity.Patron;
 
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 import static org.mockito.ArgumentMatchers.eq;

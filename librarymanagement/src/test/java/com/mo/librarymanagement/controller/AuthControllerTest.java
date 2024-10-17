@@ -1,10 +1,11 @@
 package com.mo.librarymanagement.controller;
 
-import com.mo.librarymanagement.dto.AuthenticationRequest;
-import com.mo.librarymanagement.dto.AuthenticationResponse;
-import com.mo.librarymanagement.dto.RegistrationRequest;
-import com.mo.librarymanagement.service.MyUserDetailsService;
-import com.mo.librarymanagement.util.JwtUtil;
+import com.mo.librarymanagement.adapter.controller.AuthController;
+import com.mo.librarymanagement.application.dto.AuthenticationRequest;
+import com.mo.librarymanagement.application.dto.AuthenticationResponse;
+import com.mo.librarymanagement.application.dto.RegistrationRequest;
+import com.mo.librarymanagement.application.service.MyUserDetailsService;
+import com.mo.librarymanagement.infrastructure.util.JwtUtil;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

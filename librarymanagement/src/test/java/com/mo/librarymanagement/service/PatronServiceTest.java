@@ -15,8 +15,9 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.mo.librarymanagement.entity.Patron;
-import com.mo.librarymanagement.repository.PatronRepository;
+import com.mo.librarymanagement.application.service.PatronService;
+import com.mo.librarymanagement.domain.entity.Patron;
+import com.mo.librarymanagement.domain.repository.PatronRepository;
 
 @SpringBootTest
 public class PatronServiceTest {

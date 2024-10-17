@@ -13,8 +13,9 @@ import org.junit.jupiter.api.Test;
 import org.mockito.*;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.mo.librarymanagement.entity.Book;
-import com.mo.librarymanagement.repository.BookRepository;
+import com.mo.librarymanagement.application.service.BookService;
+import com.mo.librarymanagement.domain.entity.Book;
+import com.mo.librarymanagement.domain.repository.BookRepository;
 
 import static org.mockito.Mockito.*;
 

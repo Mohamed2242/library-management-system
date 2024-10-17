@@ -8,9 +8,12 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.mo.librarymanagement.entity.Book;
-import com.mo.librarymanagement.entity.BorrowingRecord;
-import com.mo.librarymanagement.entity.Patron;
+import com.mo.librarymanagement.domain.entity.Book;
+import com.mo.librarymanagement.domain.entity.BorrowingRecord;
+import com.mo.librarymanagement.domain.entity.Patron;
+import com.mo.librarymanagement.domain.repository.BookRepository;
+import com.mo.librarymanagement.domain.repository.BorrowingRepository;
+import com.mo.librarymanagement.domain.repository.PatronRepository;
 
 @SpringBootTest
 public class BorrowingRecordRepositoryTest {

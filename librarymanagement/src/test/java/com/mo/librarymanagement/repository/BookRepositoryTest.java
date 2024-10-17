@@ -7,7 +7,8 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.mo.librarymanagement.entity.Book;
+import com.mo.librarymanagement.domain.entity.Book;
+import com.mo.librarymanagement.domain.repository.BookRepository;
 
 @SpringBootTest
 public class BookRepositoryTest {

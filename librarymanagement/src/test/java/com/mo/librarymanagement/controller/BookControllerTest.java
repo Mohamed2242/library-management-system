@@ -1,7 +1,8 @@
 package com.mo.librarymanagement.controller;
 
-import com.mo.librarymanagement.entity.Book;
-import com.mo.librarymanagement.service.BookService;
+import com.mo.librarymanagement.application.service.BookService;
+import com.mo.librarymanagement.domain.entity.Book;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

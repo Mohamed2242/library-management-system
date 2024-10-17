@@ -6,10 +6,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 
-import com.mo.librarymanagement.entity.Book;
-import com.mo.librarymanagement.entity.BorrowingRecord;
-import com.mo.librarymanagement.entity.Patron;
-import com.mo.librarymanagement.repository.BorrowingRepository;
+import com.mo.librarymanagement.application.service.BookService;
+import com.mo.librarymanagement.application.service.BorrowingService;
+import com.mo.librarymanagement.application.service.PatronService;
+import com.mo.librarymanagement.domain.entity.Book;
+import com.mo.librarymanagement.domain.entity.BorrowingRecord;
+import com.mo.librarymanagement.domain.entity.Patron;
+import com.mo.librarymanagement.domain.repository.BorrowingRepository;
+
 import java.time.LocalDate;
 import java.util.Optional;
 
